@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useCart } from "../../context/CartContext";
-import { useTheme } from "../../context/themeContext";
+import { useTheme } from "../../context/ThemeContext";
 import { Sun, Moon } from "lucide-react";
 import styles from './Navbar.module.css';
 
