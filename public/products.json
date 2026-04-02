@@ -1,0 +1,290 @@
+[
+  {
+    "id": 1,
+    "title": "Men's Casual Slim Fit T-Shirt",
+    "price": 19.99,
+    "description": "A comfortable slim fit t-shirt for everyday wear. Made from 100% cotton with a soft finish.",
+    "category": "men's clothing",
+    "image": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=500",
+    "rating": { "rate": 4.5, "count": 120 }
+  },
+  {
+    "id": 2,
+    "title": "Men's Classic Denim Jacket",
+    "price": 59.99,
+    "description": "A timeless denim jacket with a classic cut. Perfect for layering in any season.",
+    "category": "men's clothing",
+    "image": "https://assets.digitalcontent.marksandspencer.app/images/w_1024,q_auto,f_auto/SD_10_T18_4782_E0_X_EC_0/Classic-Denim-Jacket",
+    "rating": { "rate": 4.3, "count": 85 }
+  },
+  {
+    "id": 3,
+    "title": "Men's Slim Fit Chino Pants",
+    "price": 39.99,
+    "description": "Versatile slim fit chino pants suitable for both casual and semi-formal occasions.",
+    "category": "men's clothing",
+    "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?w=500",
+    "rating": { "rate": 4.2, "count": 99 }
+  },
+  {
+    "id": 4,
+    "title": "Men's Formal Dress Shirt",
+    "price": 34.99,
+    "description": "A crisp formal dress shirt with a regular fit. Great for office and events.",
+    "category": "men's clothing",
+    "image": "https://images.unsplash.com/photo-1598033129183-c4f50c736f10?w=500",
+    "rating": { "rate": 4.6, "count": 200 }
+  },
+  {
+    "id": 5,
+    "title": "Men's Hooded Sweatshirt",
+    "price": 44.99,
+    "description": "Warm and cozy hoodie with kangaroo pocket. Ideal for casual outings and lounging.",
+    "category": "men's clothing",
+    "image": "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=500",
+    "rating": { "rate": 4.4, "count": 150 }
+  },
+  {
+    "id": 6,
+    "title": "Men's Running Shorts",
+    "price": 24.99,
+    "description": "Lightweight and breathable running shorts with elastic waistband and inner liner.",
+    "category": "men's clothing",
+    "image": "https://tse3.mm.bing.net/th/id/OIP.py2sAl68069DWrcX0MGf_gHaHa?w=1445&h=1445&rs=1&pid=ImgDetMain&o=7&rm=3",
+    "rating": { "rate": 4.1, "count": 73 }
+  },
+  {
+    "id": 7,
+    "title": "Men's Leather Belt",
+    "price": 17.99,
+    "description": "Genuine leather belt with a classic buckle. Available in multiple sizes.",
+    "category": "men's clothing",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+    "rating": { "rate": 4.0, "count": 60 }
+  },
+  {
+    "id": 8,
+    "title": "Men's Wool Blend Overcoat",
+    "price": 89.99,
+    "description": "Elegant wool blend overcoat for cold weather. Features a double-breasted front.",
+    "category": "men's clothing",
+    "image": "https://images.unsplash.com/photo-1544923246-77307dd654cb?w=500",
+    "rating": { "rate": 4.7, "count": 45 }
+  },
+  {
+    "id": 9,
+    "title": "Women's Floral Wrap Dress",
+    "price": 42.99,
+    "description": "A beautiful floral wrap dress perfect for summer outings and casual events.",
+    "category": "women's clothing",
+    "image": "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?w=500",
+    "rating": { "rate": 4.6, "count": 180 }
+  },
+  {
+    "id": 10,
+    "title": "Women's High Waist Skinny Jeans",
+    "price": 49.99,
+    "description": "Stylish high waist skinny jeans with a stretchy fabric for maximum comfort.",
+    "category": "women's clothing",
+    "image": "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=500",
+    "rating": { "rate": 4.4, "count": 210 }
+  },
+  {
+    "id": 11,
+    "title": "Women's Knit Cardigan",
+    "price": 36.99,
+    "description": "A soft knit cardigan that pairs perfectly with any outfit. Available in multiple colors.",
+    "category": "women's clothing",
+    "image": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=500",
+    "rating": { "rate": 4.3, "count": 130 }
+  },
+  {
+    "id": 12,
+    "title": "Women's Pleated Midi Skirt",
+    "price": 31.99,
+    "description": "Elegant pleated midi skirt with a flowy silhouette. Great for office and weekends.",
+    "category": "women's clothing",
+    "image": "https://images.unsplash.com/photo-1577900232427-18219b9166a0?w=500",
+    "rating": { "rate": 4.5, "count": 95 }
+  },
+  {
+    "id": 13,
+    "title": "Women's Puffer Jacket",
+    "price": 74.99,
+    "description": "Warm and stylish puffer jacket with a quilted design and zip-up front.",
+    "category": "women's clothing",
+    "image": "https://images.unsplash.com/photo-1548624313-0396c75e4b1a?w=500",
+    "rating": { "rate": 4.2, "count": 88 }
+  },
+  {
+    "id": 14,
+    "title": "Women's Silk Blouse",
+    "price": 54.99,
+    "description": "Luxurious silk blouse with a relaxed fit. Perfect for formal and semi-formal occasions.",
+    "category": "women's clothing",
+    "image": "https://images.unsplash.com/photo-1485462537746-965f33f7f6a7?w=500",
+    "rating": { "rate": 4.6, "count": 112 }
+  },
+  {
+    "id": 15,
+    "title": "Women's Yoga Leggings",
+    "price": 28.99,
+    "description": "High-performance yoga leggings with moisture-wicking fabric and a wide waistband.",
+    "category": "women's clothing",
+    "image": "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?w=500",
+    "rating": { "rate": 4.7, "count": 260 }
+  },
+  {
+    "id": 16,
+    "title": "Women's Trench Coat",
+    "price": 94.99,
+    "description": "Classic double-breasted trench coat with a belted waist. A wardrobe staple.",
+    "category": "women's clothing",
+    "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500",
+    "rating": { "rate": 4.8, "count": 77 }
+  },
+  {
+    "id": 17,
+    "title": "Apple iPhone 15 Pro",
+    "price": 999.99,
+    "description": "Latest iPhone with A17 Pro chip, titanium design, and a 48MP main camera system.",
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=500",
+    "rating": { "rate": 4.9, "count": 500 }
+  },
+  {
+    "id": 18,
+    "title": "Sony WH-1000XM5 Headphones",
+    "price": 349.99,
+    "description": "Industry-leading noise cancelling headphones with 30-hour battery life and premium sound.",
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=500",
+    "rating": { "rate": 4.8, "count": 320 }
+  },
+  {
+    "id": 19,
+    "title": "Samsung 4K Smart TV 55\"",
+    "price": 649.99,
+    "description": "55-inch 4K UHD Smart TV with HDR support, built-in streaming apps, and Alexa compatibility.",
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=500",
+    "rating": { "rate": 4.6, "count": 215 }
+  },
+  {
+    "id": 20,
+    "title": "Apple MacBook Air M2",
+    "price": 1099.99,
+    "description": "Ultra-thin laptop powered by Apple M2 chip. Features a 13.6-inch Liquid Retina display.",
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500",
+    "rating": { "rate": 4.9, "count": 410 }
+  },
+  {
+    "id": 21,
+    "title": "Canon EOS R50 Camera",
+    "price": 679.99,
+    "description": "Compact mirrorless camera with 24.2MP sensor, 4K video, and beginner-friendly controls.",
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=500",
+    "rating": { "rate": 4.7, "count": 185 }
+  },
+  {
+    "id": 22,
+    "title": "Logitech MX Master 3 Mouse",
+    "price": 99.99,
+    "description": "Advanced wireless mouse with ultra-fast scrolling, ergonomic design, and multi-device support.",
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=500",
+    "rating": { "rate": 4.7, "count": 290 }
+  },
+  {
+    "id": 23,
+    "title": "iPad Pro 12.9-inch",
+    "price": 1099.99,
+    "description": "Powerful tablet with M2 chip, Liquid Retina XDR display, and Apple Pencil support.",
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=500",
+    "rating": { "rate": 4.8, "count": 340 }
+  },
+  {
+    "id": 24,
+    "title": "Portable Bluetooth Speaker",
+    "price": 59.99,
+    "description": "Waterproof portable speaker with 360° sound, 12-hour battery, and built-in mic.",
+    "category": "electronics",
+    "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=500",
+    "rating": { "rate": 4.4, "count": 175 }
+  },
+  {
+    "id": 25,
+    "title": "Gold Diamond Stud Earrings",
+    "price": 199.99,
+    "description": "Elegant 14K gold earrings with genuine diamond studs. Perfect for gifting.",
+    "category": "jewelery",
+    "image": "https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?w=500",
+    "rating": { "rate": 4.8, "count": 95 }
+  },
+  {
+    "id": 26,
+    "title": "Silver Chain Necklace",
+    "price": 89.99,
+    "description": "925 sterling silver chain necklace with a delicate pendant. Hypoallergenic.",
+    "category": "jewelery",
+    "image": "https://images.unsplash.com/photo-1599643478518-a784e5dc4c8f?w=500",
+    "rating": { "rate": 4.6, "count": 140 }
+  },
+  {
+    "id": 27,
+    "title": "Rose Gold Bangle Bracelet",
+    "price": 59.99,
+    "description": "Minimalist rose gold bangle bracelet. Stackable and suitable for everyday wear.",
+    "category": "jewelery",
+    "image": "https://images.unsplash.com/photo-1611591437281-460bfbe1220a?w=500",
+    "rating": { "rate": 4.5, "count": 110 }
+  },
+  {
+    "id": 28,
+    "title": "Pearl Drop Earrings",
+    "price": 49.99,
+    "description": "Classic freshwater pearl drop earrings with gold-plated hooks. Timeless elegance.",
+    "category": "jewelery",
+    "image": "https://images.unsplash.com/photo-1630019852942-f89202989a59?w=500",
+    "rating": { "rate": 4.7, "count": 88 }
+  },
+  {
+    "id": 29,
+    "title": "Men's Stainless Steel Watch",
+    "price": 149.99,
+    "description": "Classic stainless steel watch with a minimalist dial and genuine leather strap.",
+    "category": "jewelery",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500",
+    "rating": { "rate": 4.6, "count": 200 }
+  },
+  {
+    "id": 30,
+    "title": "Gemstone Cocktail Ring",
+    "price": 79.99,
+    "description": "Bold cocktail ring featuring a vibrant gemstone center in a gold-tone setting.",
+    "category": "jewelery",
+    "image": "https://images.unsplash.com/photo-1605100804763-247f67b3557e?w=500",
+    "rating": { "rate": 4.4, "count": 65 }
+  },
+  {
+    "id": 31,
+    "title": "Layered Gold Necklace Set",
+    "price": 69.99,
+    "description": "Set of 3 layered gold necklaces with different lengths and delicate pendants.",
+    "category": "jewelery",
+    "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+    "rating": { "rate": 4.5, "count": 120 }
+  },
+  {
+    "id": 32,
+    "title": "Diamond Tennis Bracelet",
+    "price": 299.99,
+    "description": "Stunning diamond tennis bracelet in 18K white gold. A luxurious statement piece.",
+    "category": "jewelery",
+    "image": "https://images.unsplash.com/photo-1602173574767-37ac01994b2a?w=500",
+    "rating": { "rate": 4.9, "count": 55 }
+  }
+]

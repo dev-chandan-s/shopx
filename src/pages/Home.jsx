@@ -9,20 +9,19 @@ const Home = () => {
         {name: "Jewelery", emoji: "💍", value: "jewelery"},
         {name: "Men's clothing", emoji: "👔", value: "men's clothing"},
         {name: "Women's clothing", emoji: "👗", value: "women's clothing"},
-    ]
+    ];
 
     const features = [
         {emoji: "🚚", title: "Free Delivery", desc: "On all orders above $50"},
         {emoji: "🔒", title: "Secure Payment", desc: "100% secure transactions"},
         {emoji: "↩", title: "Easy Returns", desc: "30 day return policy"},
-    ]
+    ];
 
     return(
         <div className={styles.page}>
 
             <section className={styles.hero}>
                 <div className={styles.heroContent}>
-
                     <span className={styles.tag}>New Arrivals 2026</span>
 
                     <h1 className={styles.heroTitle}>
@@ -37,7 +36,7 @@ const Home = () => {
 
                     <button
                         className={styles.heroBtn}
-                        onClick={() => navigate('./products')}
+                        onClick={() => navigate('/products')} // ✅ fixed
                     >
                         Shop Now →
                     </button>
@@ -45,8 +44,8 @@ const Home = () => {
             </section>
 
             <section className={styles.features}>
-                {features.map((feature, index) => (
-                    <div key={index} className={styles.featureCard}>
+                {features.map((feature) => (
+                    <div key={feature.title} className={styles.featureCard}>
                         <span className={styles.featureEmoji}>{feature.emoji}</span>
                         <h3 className={styles.featureTitle}>{feature.title}</h3>
                         <p className={styles.featureDesc}>{feature.desc}</p>
@@ -57,11 +56,11 @@ const Home = () => {
             <section className={styles.categories}>
                 <h2 className={styles.sectionTitle}>Shop by Categories</h2>
                 <div className={styles.categoryGrid}>
-                    {categories.map((cat, index) => (
+                    {categories.map((cat) => (
                         <div
-                            key={index}
+                            key={cat.value}
                             className={styles.categoryCard}
-                            onClick={() => navigate('./products')}
+                            onClick={() => navigate(`/products?category=${encodeURIComponent(cat.value)}`)}
                         >
                             <span className={styles.categoryEmoji}>{cat.emoji}</span>
                             <h3 className={styles.categoryName}>{cat.name}</h3>
@@ -71,6 +70,6 @@ const Home = () => {
             </section>
         </div>
     );
-}
+};
 
 export default Home;

@@ -1,13 +1,20 @@
 import useProducts from "../hooks/useProducts";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import styles from './Products.module.css'
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const Products = () => {
     const {products, loading, error} = useProducts();
     const navigate = useNavigate();
+    const [searchParams] = useSearchParams();
+    const categoryFromURL = decodeURIComponent(searchParams.get("category") || "all");
+
     const [search, setSearch] = useState("");
-    const [category, setCategory] = useState("all");
+    const [category, setCategory] = useState(categoryFromURL);
+
+    useEffect(() => {
+    setCategory(categoryFromURL);
+    }, [categoryFromURL]);
 
     const filteredProducts = products.filter(p => {
         const matchSearch = p.title.toLowerCase().includes(search.toLowerCase());
